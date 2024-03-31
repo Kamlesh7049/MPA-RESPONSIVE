@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("/sign-up\ bg.jpg") no-repeat center center/cover;
+    opacity: 0.8;
+    width: 100%;
+
+}
+.otp-login-section h1{
+    color: rgb(255, 255, 255);;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.otp-login-section{
+    margin-top: 300px;
+    text-align: center;
+}
+.otp-login-box input{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50px;
+    width: 30%;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.form-group-btm1 {
+    padding:20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50px;
+    width:30%;
+    font-size: 20px;
+    background-color:rgb(145, 8, 8);;
+    cursor: pointer;
+    color: white;
+    opacity: 0.9;
+
+}
+
+.form-group-btm2 {
+    padding:20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50px;
+    width: 30%;
+    font-size: 20px;
+    background-color: #5b636b;
+    cursor: pointer;
+    color: white;
+    opacity: 0.9;
+
+}

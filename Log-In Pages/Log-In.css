@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("/sign-up\ bg.jpg") no-repeat center center/cover;
+    opacity: 0.8;
+    width: 100%;
+
+}
+.log-in-section h1{
+    color: rgb(255, 255, 255);;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.log-in-section p{
+    font-size: 25px;
+    text-align: center;
+    color:#fff;
+    margin: 30px;
+}
+
+.log-in-section{
+    margin-top: 100px;
+}
+.log-in-box{
+text-align: center;
+}
+.log-in-box input{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 40px;
+    width: 30%;
+    font-size: 20px;
+    background-color:rgba(255, 255, 255, 0.08);
+    border: 1px solid transparent;
+    color: white;
+    opacity: 0.9;
+}
+.btn1{
+    padding:20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 40px;
+    width:30%;
+    font-size: 20px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+.log-in-box p1{
+    color:red;
+    margin-right: 380px;
+    margin-top: 500px;
+    font-size: 20px;
+
+
+}
+.btn2{
+    padding:20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 40px;
+    width:30%;
+    font-size: 20px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.log-in-section p2{
+    font-size: 25px;
+    color: white;
+    margin-top: 250px;
+    margin-right: 250px;
+}
