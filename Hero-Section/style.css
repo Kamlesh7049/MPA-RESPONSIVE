@@ -319,3 +319,14 @@
     flex-direction: column;
     gap: 20px;
 }
+/* Media Quary */
+    
+@media screen and (max-width:768px){
+    .cards {
+        /* display: grid; */
+        grid-template-columns: auto auto;
+        /* column-gap: 50px; */
+        margin-left: 20px ;
+        margin-right: 20px;
+    }
+}
