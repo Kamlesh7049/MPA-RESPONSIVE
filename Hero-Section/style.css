@@ -202,6 +202,12 @@
     margin-left: 150px;
     margin-right: 150px;
 }
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .box img {
 
@@ -298,6 +304,9 @@
     border-bottom: 1px solid #FFFFFF;
 
 
+}
+.container2 input:focus{
+ outline: none;
 }
 
 .bottomLine {
