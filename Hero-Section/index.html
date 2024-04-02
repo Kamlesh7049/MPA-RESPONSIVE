@@ -22,34 +22,45 @@
   </head>
   <body>
     <header class="header-section">
-      <div class="header-box">
-        <p>Free shipping, 07-day return or refund guarantee.</p>
-        <div class="SignInBox">
-          <a
-            target="_blank"
-            href="http://127.0.0.1:5500/Log-In%20Pages/Log-In.html"
-            >SIGN IN</a
-          >
-          <a target="_blank" href="http://127.0.0.1:5500/Sign-Up.html">
-            <i class="fa-solid fa-user"></i>
-          </a>
-          <!-- <i class="fa-solid fa-user"></i> -->
+      <input type="checkbox" id="click" />
+      <nav class="navbar">
+        <!-- <input type="checkbox" id="click" name="click" /> -->
+        <div class="header-box">
+          <p>Free shipping, 07-day return or refund guarantee.</p>
+          <div class="SignInBox">
+            <a
+              target="_blank"
+              href="http://127.0.0.1:5500/Log-In%20Pages/Log-In.html"
+              >SIGN IN</a
+            >
+            <a target="_blank" href="http://127.0.0.1:5500/Sign-Up.html">
+              <i class="fa-solid fa-user"></i>
+            </a>
+            <!-- <i class="fa-solid fa-user"></i> -->
+          </div>
         </div>
-      </div>
+        <div class="navbar-box">
+          <p>WEEKSDAY</p>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+          </ul>
+          <div>
+            <img
+              src="https://www.weeksday.store/img/icon/heart.png"
+              alt="Fav"
+            />
+            <img
+              src="https://www.weeksday.store/img/icon/cart.png"
+              alt="Cart"
+            />
+          </div>
+          <label for="click">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </div>
+      </nav>
     </header>
-    <nav>
-      <div class="navbar-box">
-        <p>WEEKSDAY</p>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-        </ul>
-        <div>
-          <img src="https://www.weeksday.store/img/icon/heart.png" alt="Fav" />
-          <img src="https://www.weeksday.store/img/icon/cart.png" alt="Cart" />
-        </div>
-      </div>
-    </nav>
     <section class="Hero-Section">
       <div class="hero-box">
         <img src="/hero02.jpg" alt="" />
@@ -58,7 +69,8 @@
         <img src="/hero03.jpg" alt="" />
         <div class="hero-heading">
           <h1>LINEN COMBOS</h1>
-          <button><a href="#">SHOP NOW</a></button>
+          <button class="shopnowbtn"><a href="#">SHOP NOW</a></button>
+          <!-- <button><a href="#">SHOP NOW</a></button> -->
         </div>
       </div>
     </section>
