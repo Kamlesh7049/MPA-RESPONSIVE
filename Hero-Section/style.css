@@ -170,7 +170,7 @@
     border: 2px solid black;
     color: #FFFFFF;
     background-color: #111111;
-    padding: 15px 30px;
+    padding: 15px 20px;
     font-size: 15px;
     text-decoration: none;
 
@@ -367,7 +367,7 @@
 
     .navbar label {
         display: block;
-        color: red;
+        color: rgb(12, 11, 11);
 
     }
 
@@ -449,7 +449,51 @@
 
 }
 
+/* MObile Media Quary */
+
 @media screen and (max-width:500px) {
+
+
+    .navbar label {
+        display: block;
+        color: rgb(12, 11, 11);
+
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;
+        left: 50;
+        width: 100%;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.273);
+        color: white;
+        z-index: 2;
+
+    }
+
+    .navbar ul li {
+        margin: 5px;
+
+    }
+
+    .navbar ul li a {
+        color: white;
+    }
+
+    .navbar ul li a:hover {
+        color: black;
+    }
+
+    #click:checked~.navbar ul {
+        display: flex;
+    }
+
+
+
+
     .cards {
         /* display: grid; */
         grid-template-columns: auto;
@@ -457,10 +501,19 @@
     }
 
     .hero-heading {
-        top: 40vh;
+        top: 50vh;
         font-size: 15px;
 
 
+    }
+
+    .hero-heading button a {
+        border: 2px solid black;
+        color: #FFFFFF;
+        background-color: #111111;
+        padding: 10px 10px;
+        font-size: 11px;
+        text-decoration: none;
     }
 
     .shopnowbtn {

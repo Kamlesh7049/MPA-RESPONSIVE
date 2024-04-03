@@ -5,7 +5,9 @@
 }
 
 body {
-    background: url("/sign-up\ bg.jpg")no-repeat center center/cover;
+    /* background-color:rgba(0, 0, 0, 0.414); */
+    background-color: #495057;
+    /* background: url("/sign-up\ bg.jpg")no-repeat center center/cover; */
     opacity: 0.8;
 }
 
@@ -13,6 +15,7 @@ body {
     color: white;
     margin: 10px;
     font-size: 40px;
+    font-family: "Nunito Sans", sans-serif;
     text-align: center;
 
 

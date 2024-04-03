@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background: url("/sign-up\ bg.jpg") no-repeat center center/cover;
+    /* background: url("/sign-up\ bg.jpg") no-repeat center center/cover; */
+    background-color:rgba(0, 0, 0, 0.414);
     opacity: 0.8;
     width: 100%;
 
@@ -13,6 +14,7 @@ body{
     color: rgb(255, 255, 255);;
     margin: 10px;
     font-size: 40px;
+    font-family:"Nunito Sans", sans-serif ;
     text-align: center;
 }
 .otp-login-section{
