@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center;  */
+    height: 60px;
+    background-color: black;
+    color: white;
+    /* position: fixed; */
+    /* top: 0px; */
+
+}
+
+.header-box p {
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #FFFFFF;
+    /* padding-left: 244px; */
+}
+
+
+.SignInBox a {
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.navbar-box {
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+
+
+}
+
+.navbar-box p {
+    font-size: 36px;
+    color: #212529;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar-box ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-box ul li {
+    padding: 20px;
+}
+
+.navbar-box ul li a {
+    text-decoration: none;
+    /* position: relative; */
+    font-size: 20px;
+    font-weight: 500;
+    color: #111111;
+    font-family: "Nunito Sans", sans-serif;
+    position: relative;
+    z-index: 5;
+}
+
+.navbar-box ul li a:hover {
+    border-bottom: 2px solid red;
+}
+
+/* HUMBER MENU */
+.navbar label {
+    margin: 30px;
+    display: none;
+}
+
+#click {
+    display: none;
+}
+
+
+
+.navbar-box img {
+    padding: 15px;
+}
+
+
+
+.Here-content p {
+    font-size: 20px;
+    color: #111111;
+    margin-left: 265px;
+    margin-top: 100px;
+
+}
+.dropdown{
+    margin-left: 265px;
+    margin-top: 50px;
+}
+.dropdown input{
+    padding: 8.5px 20px;
+    font-size: 17px;
+
+}
+
+.fa-search{
+    font-size: 17px;
+    padding: 5px;
+}
+.mybtn{
+    /* background-color:#f4f4f4; */
+    color:black;
+    font-size: 20px;
+    border: none;
+    font-weight: 500;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+ul a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    /* background-color: #333; */
+    color: #f4f4f4;
+}
+.dropdown-content{
+    position: absolute;
+    width: 150px;
+    background-color: #f4f4f4;
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+/*  */
+
+.btn3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    justify-content: left;
+}
+.search-icons{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+   
+}
+.search-icons i{
+    /* border: 1px solid black; */
+    font-size: 27px;
+    margin-left: -50px;
+    cursor: pointer;
+  
+}
