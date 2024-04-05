@@ -96,7 +96,97 @@
     font-size: 16px;
     font-family: "Nunito Sans", sans-serif;
 }
-.Product-section img {
-    margin-left: 400px;
-    
+/* .Product-section img {
+   
+    margin-left: 645px;
+    height: 800px;
+    width: 600px;
 }
+
+.Product-section p {
+    font-size: 36px;
+    font-family:"Nunito Sans", sans-serif ;
+    font-weight: 700;
+    text-align: center;
+
+} */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 530px;
+    margin: auto;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+  }
+h2{
+  font-size: 30px;
+  font-family: "Nunito Sans", sans-serif;
+
+}
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .Product-contents p{
+     font-size: 20px;
+     font-family: "Nunito Sans", sans-serif;
+     text-align: center;
+     padding: 15px;
+  }
+  .Product-contents form{
+    font-size: 20px;
+     font-family: "Nunito Sans", sans-serif;
+     text-align: center;
+     padding: 0px;
+  }
+
+  .Product-contents select{
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .Product-contents input{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    width: 200px;
+    background-color: black;
+    color: #FFFFFF;
+
+  }
+  .btn button {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .bottom-tabar{
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 36px;
+
+
+  }
+  .bottom-tabar ul{
+   list-style: none;
+   text-decoration: none;
+  }
