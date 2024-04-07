@@ -5,8 +5,8 @@
 }
 body{
     /* background: url("/sign-up\ bg.jpg") no-repeat center center/cover; */
-    background-color:rgba(0, 0, 0, 0.414);
-    opacity: 0.8;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    height: 100vh;
     width: 100%;
 
 }

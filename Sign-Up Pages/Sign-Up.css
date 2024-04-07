@@ -6,9 +6,11 @@
 
 body {
     /* background-color:rgba(0, 0, 0, 0.414); */
-    background-color: #495057;
+    /* background-color: #495057; */
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     /* background: url("/sign-up\ bg.jpg")no-repeat center center/cover; */
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    height: 100vh;
 }
 
 .sign-up-section h1 {

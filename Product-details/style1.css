@@ -156,7 +156,11 @@ h2{
     width: 200px;
     background-color: black;
     color: #FFFFFF;
+    
 
+  }
+  .btn button{
+    cursor: pointer;
   }
   .btn button {
     font-size: 25px;

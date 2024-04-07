@@ -115,11 +115,11 @@
     padding: 5px;
 }
 .mybtn{
-    /* background-color:#f4f4f4; */
-    color:black;
+    background-color:transparent;
+    /* color:black; */
     font-size: 20px;
     border: none;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-family: "Nunito Sans", sans-serif;
 
 }

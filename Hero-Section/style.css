@@ -119,7 +119,7 @@
 .hero-box {
     width: 100%;
     display: flex;
-    /* animation: slide 9s infinite linear; */
+    animation: slide 9s infinite linear;
 }
 
 @keyframes slide {
@@ -256,7 +256,8 @@
     padding: 90px 0px;
     /* display: flex; */
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    /* grid-template-columns: auto auto auto auto; */
+    grid-template-columns: repeat(4,1fr);
     /* justify-content: space-evenly; */
     color: #FFFFFF;
     width: 90%;
@@ -364,8 +365,19 @@
 
 
 /* Media Quary */
+@media screen and (min-width:769px) and (max-width:1200px){
+ .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }   
+}
+
+
 
 @media screen and (max-width:768px) {
+    .container2{
+        grid-template-columns: repeat(2,1fr);
+    }
 
     .navbar label {
         display: block;
