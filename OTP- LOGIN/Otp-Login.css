@@ -10,10 +10,23 @@ body{
     width: 100%;
 
 }
+.container {
+    min-height: 75vh;
+    height: 100%;
+    background-color: #673e631f;
+    width: 50%;
+    min-width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto;
+    padding-top: 20px;
+}
 .otp-login-section h1{
     color: rgb(255, 255, 255);;
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
     font-family:"Nunito Sans", sans-serif ;
     text-align: center;
 }
@@ -22,21 +35,21 @@ body{
     text-align: center;
 }
 .otp-login-box input{
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 10px;
     width: 30%;
-    font-size: 20px;
+    font-size: 16px;
     opacity: 0.9;
 }
 .form-group-btm1 {
-    padding:20px;
+    padding:10px;
     margin-top: 20px;
     text-align: center;
     border-radius: 50px;
     width:30%;
-    font-size: 20px;
+    font-size: 16px;
     background-color:rgb(145, 8, 8);;
     cursor: pointer;
     color: white;
@@ -45,12 +58,12 @@ body{
 }
 
 .form-group-btm2 {
-    padding:20px;
+    padding:10px;
     margin-top: 20px;
     text-align: center;
     border-radius: 50px;
     width: 30%;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #5b636b;
     cursor: pointer;
     color: white;

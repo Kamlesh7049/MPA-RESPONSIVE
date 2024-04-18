@@ -127,22 +127,26 @@
     position: relative;
     display: inline-block;
 }
-ul a{
+.dropdown ul li{
+    line-height: .5;
+}
+.dropdown ul li a{
     display: block;
-    color: #333;
+    color: black;
     font-family: "Nunito Sans", sans-serif;
     text-decoration: none;
     padding: 10px;
 }
-a:hover{
-    /* background-color: #333; */
-    color: #f4f4f4;
+.dropdown ul li a:hover{
+    color: blue;
 }
 .dropdown-content{
     position: absolute;
     width: 150px;
     /* background-color: #f4f4f4; */
     display: none;
+    /* text-align: center; */
+    margin-right: 20px;
 }
 .dropdown:hover .dropdown-content{
     display: block;
@@ -175,7 +179,7 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 0px;
-    margin-top: 30px;
+    padding-top: 100px;
     /* margin-left: 150px; */
     /* margin-right: 150px; */
 }
@@ -270,6 +274,7 @@ a:hover{
     margin-top: 12px;
 
 }
+
 
 .container2 p1 {
     font-size: 20px;

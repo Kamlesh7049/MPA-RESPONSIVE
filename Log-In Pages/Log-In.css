@@ -10,10 +10,24 @@ body{
     height: 100vh;
 
 }
+.container {
+    min-height: 75vh;
+    height: 100%;
+    background-color: #673e631f;
+    width: 50%;
+    min-width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto;
+    padding-top: 20px;
+}
+
 .log-in-section h1{
     color: rgb(255, 255, 255);;
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Nunito Sans", sans-serif;
     text-align: center;
 
@@ -33,24 +47,24 @@ body{
 text-align: center;
 }
 .log-in-box input{
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 10px;
     width: 30%;
-    font-size: 20px;
+    font-size: 16px;
     /* background-color:rgba(255, 255, 255, 0.08); */
     border: 1px solid transparent;
     color: white;
     opacity: 0.9;
 }
 .btn1{
-    padding:20px;
+    padding:10px;
     margin-top: 20px;
     text-align: center;
     border-radius: 40px;
     width:30%;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #dc3545;
     color: white;
     cursor: pointer;
@@ -67,12 +81,12 @@ text-align: center;
 
 }
 .btn2{
-    padding:20px;
+    padding:10px;
     margin-top: 20px;
     text-align: center;
     border-radius: 40px;
     width:30%;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #dc3545;
     color: white;
     cursor: pointer;
@@ -83,5 +97,6 @@ text-align: center;
     font-family: "Nunito Sans", sans-serif;
     color: white;
     margin-top: 250px;
-    margin-right: 250px;
+    margin-right: auto;
+    text-align: center;
 }
