@@ -72,10 +72,14 @@
 .navbar-box ul li a:hover {
     border-bottom: 2px solid red;
 }
+.navbar-box img {
+  padding: 15px;
+}
+
 
 .hero {
     background: url(/hero02.jpg) no-repeat center center/cover;
-    height: 100vh;
+    height: 90vh;
     padding-top: 50px;
     align-content: center;
   }
@@ -89,7 +93,7 @@
   /* hero section close */
   /* story section  start*/
   #story {
-    padding-top: 50px;
+    padding-top: 0px;
   }
   
   .story-main-section {
@@ -123,7 +127,7 @@
   
   /*  */
   .story-imag1 {
-    background-color: #0b0c0c;
+    background-color: #0b0c0caa;
     height: 400px;
     width: 380px;
   }
@@ -138,7 +142,8 @@
   .story-main-section2 {
     display: grid;
     grid-template-columns: auto auto;
-    padding-top: 50px;
+    /* padding-top: 0px; */
+    margin-top: -90px;
     gap: 80px;
   }
   
@@ -165,7 +170,7 @@
   }
   
   .story-imag2 {
-    background-color: #0d0d0e;
+    background-color:#0b0c0caa;
     height: 400px;
     width: 380px;
   }

@@ -9,11 +9,15 @@
     justify-content: space-around;
     align-items: center;
     /* text-align: center;  */
-    height: 60px;
+    height: 30px;
     background-color: black;
     color: white;
-    /* position: fixed; */
-    /* top: 0px; */
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    /* left: 0; */
+    z-index: 15;
+   
 
 }
 
@@ -34,11 +38,16 @@
 
 .navbar-box {
     display: flex;
-    height: 100px;
+    height: 60px;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
     background-color: white;
+    /*  */
+    position: fixed;
+    width: 100%;
+    top: 30px;
+    z-index: 15;
 
 
 }
@@ -67,20 +76,17 @@
     font-family: "Nunito Sans", sans-serif;
     position: relative;
     z-index: 5;
+    
 }
 
 .navbar-box ul li a:hover {
     border-bottom: 2px solid red;
 }
 
-
-/* HUMBER MENU */
-
-
-
 .navbar-box img {
     padding: 15px;
 }
+
 
 .Hero-Section {
     overflow: hidden;
